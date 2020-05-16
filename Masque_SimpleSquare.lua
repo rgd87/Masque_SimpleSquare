@@ -12,7 +12,7 @@ local Masque = LibStub("Masque", true)
 if not Masque then return end
 
 Masque:AddSkin("SimpleSquare", {
-	Masque_Version = 60000,
+	Masque_Version = 80200,
 	Shape = "Square",
 	Template = "Blizzard",
 	Backdrop = {
@@ -54,9 +54,9 @@ Masque:AddSkin("SimpleSquare", {
 		Height = 36,
 	},
 	Cooldown = {
-		Width = 34,
-		Height = 35,
-		OffsetX = 1,
+		Width = 30,
+		Height = 30,
+		OffsetX = 0,
 		OffsetY = 0,
 	},
 	Count = { -- anchor BOTTOMRIGHT
@@ -112,9 +112,9 @@ Masque:AddSkin("SimpleSquare Thin", {
 		Color = { 0, 144/255, 1, 0.9 },
 	},
 	Cooldown = {
-		Width = 35,
-		Height = 35,
-		OffsetX = 0,
+		Width = 34,
+		Height = 34,
+		OffsetX = 1,
 		OffsetY = 0,
 	},
 })
